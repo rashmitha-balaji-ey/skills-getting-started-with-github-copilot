@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Populate activities list
       Object.entries(activities).forEach(([name, details]) => {
-        const activityCard = document.createElement("div");
+        const activityCard =
         activityCard.className = "activity-card";
 
         const spotsLeft = details.max_participants - details.participants.length;
